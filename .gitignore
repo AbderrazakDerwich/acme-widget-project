@@ -1,0 +1,3 @@
+/docker/database/data
+/site/vendor/
+.env

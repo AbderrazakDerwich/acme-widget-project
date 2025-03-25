@@ -1,0 +1,49 @@
+.compnay-name{
+    margin-left: 10px;
+}
+.basket-icon{
+    margin-left: 10px;
+}
+/* Regular price (Delivery cost under $50) */
+.price-regular {
+    color: #FF6F61; /* Soft red-orange */
+}
+/* Reduced price (Delivery cost between $50 and $90) */
+.price-reduced {
+    color: #4CAF50; /* Vibrant green */
+}
+/* Free delivery text */
+.price-free {
+    color: #FFD700; /* Golden yellow */
+}
+/* Special offer text */
+.offer-text {
+    color: #FF4081; /* Playful pink */
+}
+/* Main body text */
+.main-text {
+    color: #333333; /* Dark gray for readability */
+}
+.basket-icon{
+    position: absolute;
+    float: right;
+    right: 35%;
+}
+.number-product{
+    position: absolute;
+    float: right;
+    right: 5%;
+}
+.total-display-cart{
+    font-weight: 600;
+    font-size: 30px;
+}
+.total-price{
+    color: red;
+}
+.card:hover{
+    border: 1px solid #b0c4de;
+}
+.card:hover .card-header{
+    border-bottom: 1px solid #b0c4de;
+}
